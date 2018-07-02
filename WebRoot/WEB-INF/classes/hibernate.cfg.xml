@@ -7,11 +7,12 @@
 
 <session-factory>
 
-	<!-- Database connection settings -->
+	<!-- Database connection settings  ?characterEncoding=UTF8 -->
 	<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-	<property name="connection.url">jdbc:mysql://localhost:3306/hitabig?characterEncoding=UTF8</property>
+	<property name="connection.url">jdbc:mysql://localhost:3306/hibernate</property>
+
 	<property name="connection.username">root</property>
-	<property name="connection.password">123</property>
+	<property name="connection.password">mjx932375216.</property>
 
 	<!-- JDBC connection pool (use the built-in) -->
 	<property name="connection.pool_size">1</property>
@@ -33,7 +34,8 @@
 	 
 	 <property name="hbm2ddl.auto">update</property>
 	 
-      <mapping class="com.hitabig.model.TeamInfo"/>
+     <mapping resource="com/hitabig/model/TeamInfo.hbm.xml" />
+     
     
 </session-factory>
 

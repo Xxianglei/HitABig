@@ -83,8 +83,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</li>
 					<li><a class="color5" href="growth.action">成长组排名</a>
 					</li>
-					<li><a class="color3" href="#">成绩录入处</a></li>
-					<li><a class="color6" href="#">赛队信息录入处</a></li>
+					<li><a class="color3" href="Record.jsp">成绩录入处</a></li>
+					<li><a class="color6" href="rigester.jsp">赛队信息录入处</a></li>
 				</ul>				
 				<div class="clearfix"></div>
 			</div>

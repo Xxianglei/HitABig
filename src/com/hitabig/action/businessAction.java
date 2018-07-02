@@ -28,7 +28,7 @@ public class businessAction extends ActionSupport{
 	   if(DigitalCheckUitl.isNumeric(team_code)){
 		   
 		   info.setTeam_Code(Integer.parseInt(team_code));
-		   info.setTeam_Name(team_name);
+		   info.setTeam_Name(team_name);		   
 		   info.setTeam_Type(team_type);
 		   info.setGrade(0.0);
 		   info.setHeader(header);

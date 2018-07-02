@@ -1,15 +1,12 @@
 package com.hitabig.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-@Entity
 public class TeamInfo {
 	private int team_Code;
 	private String team_Name;
 	private String team_Type;
 	private Double grade;
 	private String header;
-	@Id
+	
 	public int getTeam_Code() {
 		return team_Code;
 	}

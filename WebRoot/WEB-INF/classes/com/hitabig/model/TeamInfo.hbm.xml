@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!--
+
+  Used to demonstrate the declarative configuration
+  of both hbm files and annotated classes
+  See hibernate.cfg.xml and ConfigurationTest
+
+-->
+
+<hibernate-mapping package="com.hitabig.model">
+
+    <class name="TeamInfo" table="TeamInfo">
+
+        <id name="team_Code" type="int">
+          
+        </id>
+
+        <property name="team_Name" type="string" column="team_Name"/>
+                <property name="team_Type" type="string" column="team_Type"/>
+                        <property name="grade" type="double" column="grade"/>
+                                <property name="header" type="string" column="header"/>
+                                
+    </class>
+
+</hibernate-mapping>
